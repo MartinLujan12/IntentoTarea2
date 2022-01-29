@@ -1,0 +1,41 @@
+.contenedores{
+    background-color: grey;
+    width: 300px;
+    height: 300px; 
+    border-style: solid;
+    display: flex;
+    margin: 0 auto;
+    align-content: right;
+    flex-direction: column;
+
+}
+
+.item1{
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px; /*profe se puede hacer asi el box??*/
+}
+
+.item2{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px; /*igual que aca!!*/
+}
+
+.item3{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px; /*y aca igual.... gracias profe*/ 
+}

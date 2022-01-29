@@ -1,0 +1,47 @@
+.contenedores{
+    background-color: mediumturquoise;
+    width: 600px;
+    height: 100px;
+    position: relative;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    border-style: solid;
+
+}
+
+.item1{
+    background-color: mediumvioletred;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item2{
+    background-color: olive;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item3{
+    background-color: peru;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-shadow: 0 0 15px red;
+}
+
+body{ 
+    background: linear-gradient(to top, lightskyblue, white, lightskyblue);
+    
+}

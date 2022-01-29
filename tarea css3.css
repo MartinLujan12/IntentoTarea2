@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	color: #000;
+	background: hsl(36, 11%, 18%);
+	font-size:100%;
+	display: flex;
+}
+#contenedor {
+	width: 800px;
+	background: #8FA68E;
+	margin-right:auto;
+	margin-left:auto;
+	overflow: hidden;
+}
+nav {
+	background: #CC3910;
+	height: 80px;
+	display: flex;
+	width: 800px;
+	align-items: center;
+}
+
+ul {
+	list-style-type:none;
+}
+a {
+	color:#F1F2C0;
+	text-decoration: none;
+	display: flex;
+	flex-direction: column;
+	margin: 5px;
+	align-content:space-between;
+}
+section {
+	background: #F1F2C0;
+	float: left;
+	width: 800px;
+	height: 130px;
+}
+aside {
+	background: #CCC59E;
+	float: right;
+	width: 800px;
+}
+
+.item1{
+	display: flex;
+	align-items: flex-start;
+	margin-top: 10px;
+	height: 30px;
+}
